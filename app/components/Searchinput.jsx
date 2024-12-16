@@ -15,7 +15,7 @@ const SearchInput = () => {
     setHasSearched(true);
 
     try {
-      const response = await fetch('http://172.20.10.4:3001/RIproject/documents/search', {
+      const response = await fetch('https://mini-projet-ri.onrender.com/RIproject/documents/search', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
